@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* text-align: center;
+    vertical-align: middle; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+.container{
+    height: min-content;
+    width: 30rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+.btn{
+    margin: 1rem auto auto auto;
+    width: fit-content;
+    background-color: black;
+    color: aliceblue;
+    border: 0;
+    padding: 16px 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.amount{
+    margin: auto;
+    padding: 16px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.person{
+    margin: auto;
+    padding: 16px;
+    border-radius: 10px;
+    border: 0;
+}
