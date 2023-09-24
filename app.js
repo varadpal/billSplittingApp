@@ -4,6 +4,7 @@ function joined() {
 
     let amount= document.getElementById("amnt").value;
     let persons= document.getElementById("pers").value;
+    let inputArea = document.getElementById("input");
     
     let result= document.getElementById("result");
 
@@ -17,6 +18,7 @@ function joined() {
     if (amount > 0 && persons > 0) {
         result.innerHTML= ("₹ "+ (amount/persons).toFixed(2) + " Per Person"); 
     }else{
-        result.innerHTML= "Invalid Input"; 
+        result.innerHTML= "Invalid Input";
+        input.style.color= "red"; 
     }
 }
