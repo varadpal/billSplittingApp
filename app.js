@@ -19,6 +19,6 @@ function joined() {
         result.innerHTML= ("₹ "+ (amount/persons).toFixed(2) + " Per Person"); 
     }else{
         result.innerHTML= "Invalid Input";
-        input.style.color= "red"; 
+        input.style.border= "red"; 
     }
 }
