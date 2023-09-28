@@ -17,8 +17,21 @@ function joined() {
 
     if (amount > 0 && persons > 0) {
         result.innerHTML= ("₹ "+ (amount/persons).toFixed(2) + " Per Person"); 
+        inputArea.style.color='#FFF3DA';
+        inputArea.style.fontWeight='400';
+
+        result.style.color='black';
     }else{
         result.innerHTML= "Invalid Input";
-        input.style.border= "red"; 
+        inputArea.style.color='#ff4939';
+        inputArea.style.fontWeight='600';
+        
+        result.style.color='#ff4939';
+        
+        btn.classList.add("apply-shake");
+        setTimeout(() => {
+            btn.style.backgroundColor="#ff4939";
+        },100)
+        
     }
 }
