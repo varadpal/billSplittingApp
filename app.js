@@ -17,7 +17,7 @@ function joined() {
 
     if (amount > 0 && persons > 0) {
         result.innerHTML= ("₹ "+ (amount/persons).toFixed(2) + " Per Person"); 
-        inputArea.style.color='#FFF3DA';
+        inputArea.style.color='#2B2730';
         inputArea.style.fontWeight='400';
 
         result.style.color='black';
